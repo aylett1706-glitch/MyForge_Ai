@@ -4,7 +4,7 @@ import requests
 
 # ── Configuration ────────────────────────────────────────────
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 SYSTEM_PREAMBLE = """You are Forge AI, an intelligent assistant for an Australian disability support platform.
